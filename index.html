@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9EREoZVkOPcZ_uqrhXdYdiCFMsFaq35ON1ZI2yZiuCuyYCKkMJnxQz-u5ql1e9sadxos&usqp=CAU" type="image/X-UA-Compatible">
+</head>
+<body>
+    <div class="conatiner">
+    <div class="value">
+    <center>Value1: <input type="number" placeholder="Enter the first number" id="n1"></center>
+    </div>
+    <div id="result">Answer
+        </div>
+    <div id="wait">Wait
+    </div>    
+    <div class="button">
+   <input type="submit" value="add" id="add" >
+   <input type="submit" value="sub" id="sub" >
+   <input type="submit" value="mul" id="mul" >
+   <input type="submit" value="div" id="div" >
+</div>
+<div class="end">
+    <input type="button" value="=" id="equal">
+    <input type="button" value="reload" onclick="window.location.reload()">
+</div>
+</div>
+   <script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background-image: url('https://images.all-free-download.com/images/graphicthumb/background_beautiful_beauty_270339.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation: movement 2s infinite;
+
+}
+@keyframes movement{
+    0%{
+        background-image: url('https://images.all-free-download.com/images/graphicthumb/background_beautiful_beauty_270339.jpg');
+
+    }
+    100%{
+        background-image: url('https://wallpaperaccess.com/full/1781535.jpg');
+
+    }
+}
+.conatiner
+{
+    background-color: rgba(0, 0, 0, 0.392);
+    width:400px;
+    height:450px;
+    margin:auto;
+    margin-top:3%;
+    border-radius:25px 25px 25px 25px;
+}
+.value
+{
+    font-size:20px;
+    font-style: normal;
+    color:white;
+    padding:10%;
+}
+.value input{
+    padding:10px;
+    margin-top:10%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:1px 1px 2px 2px white;
+}
+#result,#wait
+{
+    background-color:red;
+    height:30px;
+    width:fit-content;
+    margin:auto;
+    margin-top:10px;
+}
+.button
+{
+    margin:auto;
+    margin-left:60px;
+    padding:30px;
+    
+}
+.button input
+{
+    padding:5%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:1px 1px 2px 2px white;
+
+}
+.end
+{
+    margin-left: 40%;
+    justify-content: space-evenly;
+}
+.end input{
+    padding:5%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:1px 1px 2px 2px white; 
+}
